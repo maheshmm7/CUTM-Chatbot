@@ -1,0 +1,490 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Good day", "Hey", "Is anyone there?", "How are you?", "What's up?", "Good morning", "Good evening",
+        "Hii", "Hiii", "Helloo", "Heyy", "Helo", "Good mornin", "Gmorning", "G'day", "Howdy", "How do you do",
+        "Wazzup", "Sup", "Yo", "Morning", "Eve", "Hiya", "Hey there", "How's it going?", "What's new?", "What's happening?",
+        "Salutations", "Greetings", "Hey everyone", "Hi all", "Hey there!", "How are you doing?", "What's going on?",
+        "Good evenin", "Good afternoon", "How are ya?", "Hey!", "Hello there!", "Hey guys!", "Good to see you", "Long time no see",
+        "Hiii", "Hiii there", "Hello hello", "Hey hey", "Hola", "Bon jour", "Salut"
+      ],
+      "responses": [
+        "Hello! How can I assist you?", "Hi there! What can I do for you today?", "Greetings! How can I help?", "Hey! How can I assist you today?", "Good day! What can I help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye", "See you later", "Bye", "Farewell", "Catch you later", "Take care",
+        "Good bye", "See ya", "Bye bye", "Cya", "See you soon", "Later", "Laterz", "Peace out", "Adios",
+        "Fare well", "So long", "Catch you soon", "Catch you later", "Take care now", "Good night", "Night night",
+        "See ya later", "See ya soon", "Goodby", "Bye now", "Goodbyee", "Goodbye!", "See you!", "Later!",
+        "Take it easy", "Stay safe", "Stay well", "Bye for now", "Talk to you later", "G'bye", "Catch you later!", "Bye-bye",
+        "Take care!", "Good night!", "Peace!", "Cheerio", "Adieu", "Goodbyeee", "Sayonara", "So long!", "Bye guys!", "Catch you all later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!", "See you soon! Take care!", "Bye! Feel free to reach out again.", "Farewell! Have a wonderful day!", "Take care! See you later."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you", "Thanks", "That's helpful", "Thank's a lot", "I appreciate it", "Thanks so much",
+        "Thankyou", "Thank u", "Thx", "Thnks", "Thnx", "Tnx", "Tnks", "Ty", "Tyvm",
+        "Much appreciated", "Thank you very much", "Thanks a bunch", "Thanks a lot", "Thanks a million", "Thanks a ton",
+        "I appreciate that", "Thanks a bunch", "Many thanks", "Thanks heaps", "Thankyou!", "Thank you!", "Thanks!",
+        "Thanks for your help", "Thanks for that", "That's a big help", "Cheers", "Thanks mate", "Thanks buddy", "Much obliged",
+        "Thanks so much!", "Thank you so much!", "Thank ya", "Thank you very much!", "Thanks a lot!", "Thanks bunches", "Thanks for everything",
+        "Thanks tons", "Appreciate it", "Big thanks", "Thanks again", "Thaaaanks", "Thanksss", "Thanx"
+      ],
+      "responses": [
+        "You're welcome!", "Happy to help!", "My pleasure!", "Anytime!", "Glad I could assist you!", "You're welcome! Anything else you need?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about CUTM", "What is CUTM?", "About Centurion University", "Centurion", "CUTM details", "CUTM information",
+        "What's CUTM?", "CUTM info", "Information about CUTM", "CUTM overview", "Details on CUTM", "Tell me more about CUTM",
+        "Info on Centurion University", "Centurion University info", "CUTM university", "Centurion University of Technology and Management",
+        "CUTM meaning", "CUTM full form", "CUTM university details", "CUTM college", "What does CUTM stand for?",
+        "CUTM introduction", "CUTM background", "Centurion University details", "Explain CUTM", "CUTM in Vizianagaram",
+        "CUTM location", "CUTM campus", "CUTM programs", "CUTM specializations", "CUTM features", "CUTM key points",
+        "Centurion University overview", "CUTM at a glance", "CUTM highlights", "CUTM summary", "CUTM main points",
+        "CUTM focus", "CUTM specializations", "CUTM academic programs", "CUTM reputation", "CUTM goals", "CUTM objectives",
+        "CUTM achievements", "CUTM awards", "CUTM recognition", "CUTM partners", "CUTM collaborations"
+      ],
+      "responses": [
+        "Centurion University of Technology and Management (CUTM) in Vizianagaram, Andhra Pradesh, focuses on skill-based education, offering a variety of undergraduate, postgraduate, and doctoral programs across multiple disciplines. The university is known for its hands-on learning approach, industry collaborations, and commitment to community development. It aims to provide holistic education that nurtures innovation and entrepreneurship."
+      ]
+    },
+    {
+      "tag": "programs",
+      "patterns": [
+        "What programs do you offer?", "Courses at CUTM", "Available programs", "Academic programs", "Degrees offered",
+        "CUTM programs", "CUTM courses", "Study options at CUTM", "CUTM academic offerings", "CUTM degree programs",
+        "What can I study at CUTM?", "CUTM curriculum", "CUTM course list", "CUTM majors", "CUTM specializations",
+        "Program options at CUTM", "CUTM degree options", "CUTM program details", "CUTM course details", "What degrees does CUTM offer?",
+        "List of programs at CUTM", "CUTM educational programs", "CUTM academic disciplines", "CUTM fields of study", "CUTM educational offerings",
+        "CUTM course catalog", "CUTM education options", "CUTM academic offerings", "CUTM undergraduate programs", "CUTM graduate programs",
+        "CUTM postgraduate programs", "CUTM doctoral programs", "CUTM research programs", "CUTM professional courses", "CUTM vocational courses",
+        "CUTM technical programs", "CUTM engineering programs", "CUTM management programs", "CUTM health programs", "CUTM agriculture programs",
+        "CUTM science programs", "CUTM arts programs", "CUTM humanities programs", "CUTM commerce programs", "CUTM education programs",
+        "CUTM business programs", "CUTM medical programs", "CUTM pharmacy programs", "CUTM nursing programs", "CUTM law programs"
+      ],
+      "responses": [
+        "We offer a wide range of programs including Engineering and Technology, Management, Paramedics and Allied Health Sciences, Smart Agriculture, Bachelor Studies, and Pharmacy. Each program is designed to provide practical knowledge and skills relevant to the industry. For instance, our Engineering programs cover specializations like Computer Science, Electronics, Mechanical, and Civil Engineering, while our Management programs include MBA with various specializations."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "How to apply?", "Admission process", "Entry requirements", "How can I get admitted?", "Admission criteria",
+        "Applying to CUTM", "CUTM application process", "CUTM admissions", "CUTM admission steps", "CUTM entry requirements",
+        "How do I apply to CUTM?", "CUTM admission info", "CUTM application form", "CUTM admission details", "CUTM eligibility",
+        "CUTM enrollment process", "CUTM admission guidelines", "CUTM application instructions", "CUTM application steps", "CUTM admission procedure",
+        "CUTM entry criteria", "CUTM application deadlines", "CUTM application timeline", "CUTM admission timeline", "CUTM admission help",
+        "CUTM admission office", "CUTM admission support", "CUTM application requirements", "CUTM admission requirements", "CUTM eligibility criteria",
+        "CUTM entrance exam", "CUTM entrance test", "CUTM admission test", "CUTM application fee", "CUTM admission fee",
+        "CUTM admission support", "CUTM admission guide", "CUTM application tips", "CUTM how to apply", "CUTM application instructions",
+        "CUTM admission instructions", "CUTM how to get admitted", "CUTM entry process", "CUTM enrollment criteria", "CUTM application process"
+      ],
+      "responses": [
+        "Admissions at CUTM are based on the Centurion University Entrance Examination (CUEE). Prospective students need to fill out the application form, appear for the CUEE, and meet specific academic qualifications. Additionally, we consider scores from national entrance exams for certain programs. Detailed information about the application process and criteria can be found on our website or by contacting our admissions office."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "Campus facilities", "What facilities are available?", "Student amenities", "Campus amenities", "Hostel and library facilities",
+        "What facilities do you have?", "Student facilities", "Amenities at CUTM", "Campus resources", "CUTM campus facilities",
+        "CUTM student facilities", "CUTM campus resources", "CUTM student amenities", "CUTM infrastructure", "CUTM campus infrastructure",
+        "CUTM hostel facilities", "CUTM library facilities", "CUTM lab facilities", "CUTM academic facilities", "CUTM sports facilities",
+        "CUTM recreational facilities", "CUTM health facilities", "CUTM dining facilities", "CUTM accommodation facilities", "CUTM transport facilities",
+        "CUTM IT facilities", "CUTM internet facilities", "CUTM computer facilities", "CUTM lab resources", "CUTM research facilities",
+        "CUTM residential facilities", "CUTM living facilities", "CUTM accommodation options", "CUTM hostel options", "CUTM housing facilities",
+        "CUTM study facilities", "CUTM academic support", "CUTM student support", "CUTM campus services", "CUTM student services",
+        "CUTM campus amenities", "CUTM student resources", "CUTM student infrastructure", "CUTM campus life", "CUTM student life",
+        "CUTM campus environment", "CUTM learning environment", "CUTM student environment", "CUTM on-campus facilities", "CUTM off-campus facilities"
+      ],
+      "responses": [
+        "Our campus offers state-of-the-art academic facilities, well-equipped laboratories, a modern library, residential options for students, sports facilities, and transportation services. Additionally, we have on-campus healthcare services, dining options, and recreational areas to ensure a holistic educational experience. Our aim is to provide a supportive and enriching environment for all students."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "Placement opportunities", "Recruiters", "Career support", "Job placements", "Campus placements", "Placement assistance",
+        "CUTM placements", "CUTM recruitment", "CUTM career support", "CUTM job opportunities", "CUTM placement services",
+        "CUTM job placements", "CUTM career opportunities", "CUTM career services", "CUTM job assistance", "CUTM placement details",
+        "CUTM placement support", "CUTM placement office", "CUTM placement statistics", "CUTM placement records", "CUTM placement info",
+        "CUTM placement process", "CUTM recruitment process", "CUTM job support", "CUTM employment opportunities", "CUTM career guidance",
+        "CUTM career counseling", "CUTM job counseling", "CUTM job guidance", "CUTM employment support", "CUTM job search",
+        "CUTM job prep", "CUTM job preparation", "CUTM interview prep", "CUTM interview preparation", "CUTM resume support",
+        "CUTM resume building", "CUTM interview help", "CUTM job networking", "CUTM job connections", "CUTM job placement help",
+        "CUTM placement help", "CUTM job service", "CUTM employment service", "CUTM job market", "CUTM career fairs"
+      ],
+      "responses": [
+        "Our Career Development Center works closely with top recruiters to ensure excellent placement opportunities for our students. Companies from various industries, including technology, healthcare, finance, and manufacturing, regularly participate in our campus placement drives. We also provide career counseling, resume building workshops, and interview preparation sessions to help students succeed in their job search."
+      ]
+    },
+    {
+      "tag": "location",
+  "patterns": [
+    "Where is CUTM located?", "Location of CUTM", "CUTM address", "University location", "Campus address", "Where is the university?",
+    "CUTM campus location", "Address of CUTM", "Where is CUTM?", "CUTM location details", "CUTM location info", "CUTM full address",
+    "CUTM map", "CUTM directions", "How to get to CUTM?", "CUTM location map", "CUTM campus directions",
+    "CUTM university address", "CUTM main campus", "CUTM campus info", "CUTM campus address", "CUTM university location",
+    "CUTM city", "CUTM town", "CUTM region", "CUTM area", "CUTM whereabouts", "CUTM vicinity", "CUTM geographical location",
+    "CUTM pinpoint location", "CUTM situated", "CUTM exact location", "CUTM postal address", "CUTM physical address",
+    "CUTM locality", "CUTM venue", "CUTM place", "CUTM spot", "CUTM coordinates",
+    "CUTM in Vizianagaram", "CUTM in Andhra Pradesh", "CUTM state", "CUTM province", "CUTM district"
+  ],
+  "responses": [
+    "Centurion University of Technology and Management has three campuses:\n1. Vizianagaram, Andhra Pradesh: <a href='https://www.google.com/maps?ll=18.18918,83.39253&z=10&t=m&hl=en-GB&gl=US&mapclient=embed&cid=9599919986197367855' target='_blank'>Google Maps link</a>\n2. Parlakhemundi, Odisha: <a href='https://maps.app.goo.gl/BKpk3e6JQ13wLPB79' target='_blank'>Google Maps link</a>\n3. Bhubaneswar, Odisha: <a href='https://maps.app.goo.gl/VfTmR7NKUdKXUdfe8' target='_blank'>Google Maps link</a>"
+  ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is CUTM located?", "Location of CUTM", "CUTM address", "University location", "Campus address", "Where is the university?",
+        "CUTM campus location", "Address of CUTM", "Where is CUTM?", "CUTM location details", "CUTM location info", "CUTM full address",
+        "CUTM map", "CUTM directions", "How to get to CUTM?", "CUTM location map", "CUTM campus directions",
+        "CUTM university address", "CUTM main campus", "CUTM campus info", "CUTM campus address", "CUTM university location",
+        "CUTM city", "CUTM town", "CUTM region", "CUTM area", "CUTM whereabouts", "CUTM vicinity", "CUTM geographical location",
+        "CUTM pinpoint location", "CUTM situated", "CUTM exact location", "CUTM postal address", "CUTM physical address",
+        "CUTM locality", "CUTM venue", "CUTM place", "CUTM spot", "CUTM coordinates",
+        "CUTM in Vizianagaram", "CUTM in Andhra Pradesh", "CUTM state", "CUTM province", "CUTM district"
+      ],
+      "responses": [
+        "Centurion University of Technology and Management has three campuses:\n1. Vizianagaram, Andhra Pradesh: [Google Maps link](https://www.google.com/maps?ll=18.18918,83.39253&z=10&t=m&hl=en-GB&gl=US&mapclient=embed&cid=9599919986197367855)\n2. Parlakhemundi, Odisha: [Google Maps link](https://www.google.com/maps?ll=18.7742,84.0908&z=10&t=m&hl=en-GB&gl=US&mapclient=embed&cid=12075654535232649309)\n3. Bhubaneswar, Odisha: [Google Maps link](https://www.google.com/maps?ll=20.2961,85.8245&z=10&t=m&hl=en-GB&gl=US&mapclient=embed&cid=11058909716728220035)"
+      ]
+    },
+    {
+      "tag": "admission_criteria",
+      "patterns": [
+        "Admission criteria", "Eligibility for admission", "Admission requirements", "Who can apply?", "CUTM eligibility",
+        "Criteria for admission", "Admission eligibility", "Requirements for admission", "Who is eligible?", "CUTM admission criteria",
+        "CUTM entry criteria", "CUTM qualification", "CUTM qualifications needed", "CUTM application criteria", "CUTM entrance criteria",
+        "CUTM eligibility details", "CUTM entry requirements", "CUTM eligibility requirements", "CUTM admission qualifications", "CUTM admission standards",
+        "CUTM entry standards", "CUTM eligibility standards", "CUTM entry rules", "CUTM admission rules", "CUTM eligibility conditions",
+        "CUTM entry conditions", "CUTM admission conditions", "CUTM eligibility factors", "CUTM admission factors", "CUTM qualification criteria",
+        "CUTM academic requirements", "CUTM academic criteria", "CUTM grade requirements", "CUTM mark requirements", "CUTM score requirements",
+        "CUTM entrance exam criteria", "CUTM entrance test criteria", "CUTM entrance exam eligibility", "CUTM entrance test eligibility", "CUTM application eligibility",
+        "CUTM application requirements", "CUTM enrollment criteria", "CUTM enrollment requirements", "CUTM enrollment eligibility", "CUTM enrollment standards",
+        "CUTM joining criteria", "CUTM joining requirements", "CUTM joining eligibility", "CUTM admission eligibility criteria", "CUTM admission requirements details"
+      ],
+      "responses": [
+        "The admission criteria for CUTM include passing the Centurion University Entrance Examination (CUEE) and meeting specific academic qualifications such as minimum marks in previous examinations. For certain programs, national entrance exam scores are also considered. Prospective students should ensure they meet the eligibility requirements before applying."
+      ]
+    },
+    {
+      "tag": "hostel_fee",
+      "patterns": [
+        "Hostel fee", "Accommodation cost", "Living expenses", "Hostel charges", "Residential fees", "Cost of hostel",
+        "Hostel expenses", "Hostel cost at CUTM", "Accommodation fees", "Cost of living at CUTM", "CUTM hostel charges",
+        "CUTM hostel costs", "CUTM hostel fees", "CUTM accommodation costs", "CUTM accommodation fees", "CUTM living costs",
+        "CUTM living expenses", "CUTM residential charges", "CUTM residential costs", "CUTM residential fees", "CUTM hostel expenses",
+        "Hostel price", "Accommodation price", "Living cost at CUTM", "Hostel cost details", "Hostel fee details", "Hostel charges details",
+        "Hostel expense details", "Accommodation cost details", "Living expense details", "CUTM hostel cost breakdown", "CUTM accommodation cost breakdown",
+        "CUTM hostel fee structure", "CUTM accommodation fee structure", "CUTM living cost structure", "CUTM hostel fee details", "CUTM hostel charges details",
+        "CUTM hostel price details", "CUTM hostel fee info", "CUTM hostel cost info", "CUTM accommodation fee info", "CUTM living cost info",
+        "CUTM hostel price info", "CUTM hostel fee amount", "CUTM hostel cost amount", "CUTM accommodation fee amount", "CUTM living cost amount",
+        "CUTM hostel price amount", "CUTM hostel fee specifics", "CUTM hostel cost specifics", "CUTM accommodation fee specifics", "CUTM living cost specifics",
+        "CUTM hostel price specifics"
+      ],
+      "responses": [
+        "The hostel fee at CUTM varies depending on the type of accommodation chosen. On average, the annual hostel fee ranges from INR 60,000 to INR 90,000. This includes accommodation, food, and other facilities. For detailed information and specific queries, please visit our website or contact the hostel office directly."
+      ]
+    },
+    {
+      "tag": "hostel_availability",
+      "patterns": [
+        "Hostel availability", "Are hostels available?", "Accommodation options", "Can I get a hostel?", "Living facilities",
+        "Hostel at CUTM", "Accommodation at CUTM", "Hostel rooms availability", "Accommodation availability", "Hostel options",
+        "Hostel facility", "CUTM hostel facility", "CUTM accommodation options", "CUTM hostel availability", "CUTM living facilities",
+        "CUTM residential availability", "CUTM hostel rooms", "CUTM accommodation facility", "CUTM hostel options", "CUTM hostel status",
+        "CUTM accommodation status", "CUTM hostel rooms status", "CUTM accommodation availability status", "CUTM hostel room availability", "CUTM hostel space",
+        "CUTM accommodation space", "CUTM hostel rooms available", "CUTM accommodation rooms available", "CUTM hostel rooms options", "CUTM accommodation options available",
+        "Hostel availability status", "Accommodation availability status", "Living facility availability", "Residential availability", "Living space availability",
+        "Hostel availability info", "Accommodation availability info", "Living facility availability info", "Residential availability info", "Living space availability info",
+        "Hostel availability details", "Accommodation availability details", "Living facility availability details", "Residential availability details", "Living space availability details",
+        "Hostel rooms status", "Accommodation rooms status", "Living facilities status", "Residential facilities status", "Living space status"
+      ],
+      "responses": [
+        "Yes, CUTM provides hostel facilities for both male and female students. The availability of hostel rooms depends on the demand and the type of accommodation preferred. It's advisable to apply for hostel accommodation as early as possible to secure a spot. For more details, please contact the hostel office or visit our website."
+      ]
+},
+{
+      "tag": "admissions",
+      "patterns": [
+        "How to get admission?", "Admission process", "How can I enroll?", "Apply for a course", "Admission details",
+        "How to join CUTM?", "Enrollment process", "CUTM admissions", "Admission procedure", "How do I get admitted?",
+        "Applying for admission", "Admission requirements", "Admission criteria", "Steps to apply", "Application process",
+        "Admission info", "Admission form", "How to register?", "Admission steps", "Joining process",
+        "Admission application", "How to apply for CUTM?", "Admission guidelines", "Admission prerequisites", "Admission process at CUTM",
+        "Enrollment details", "How to enroll at CUTM?", "Applying to CUTM", "Enrollment requirements", "Admission help",
+        "Admission query", "Register for admission", "Apply to university", "University admission", "Admission details for CUTM",
+        "Admission info at CUTM", "CUTM joining process", "CUTM application", "Applying for university", "CUTM admission info",
+        "University joining", "University registration", "University enrollment", "How do I enroll?", "University admission process",
+        "University apply", "Wrong query", "Unrelated question", "Random text", "Incorrect pattern"
+      ],
+      "responses": [
+        "To get admission to CUTM, you need to fill out the application form available on our website and submit the required documents. You may also need to appear for entrance exams for certain programs. Detailed information about the application process and criteria can be found on our website or by contacting our admissions office."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "Campus facilities", "What facilities are available?", "Student amenities", "Campus amenities", "Hostel and library facilities",
+        "What facilities do you have?", "Student facilities", "Amenities at CUTM", "Campus resources", "CUTM campus facilities",
+        "CUTM student facilities", "CUTM campus resources", "CUTM student amenities", "CUTM infrastructure", "CUTM campus infrastructure",
+        "CUTM hostel facilities", "CUTM library facilities", "CUTM lab facilities", "CUTM academic facilities", "CUTM sports facilities",
+        "CUTM recreational facilities", "CUTM health facilities", "CUTM dining facilities", "CUTM accommodation facilities", "CUTM transport facilities",
+        "CUTM IT facilities", "CUTM internet facilities", "CUTM computer facilities", "CUTM lab resources", "CUTM research facilities",
+        "CUTM residential facilities", "CUTM living facilities", "CUTM accommodation options", "CUTM hostel options", "CUTM housing facilities",
+        "CUTM study facilities", "CUTM academic support", "CUTM student support", "CUTM campus services", "CUTM student services",
+        "CUTM campus amenities", "CUTM student resources", "CUTM student infrastructure", "CUTM campus life", "CUTM student life",
+        "CUTM campus environment", "CUTM learning environment", "CUTM student environment", "CUTM on-campus facilities", "CUTM off-campus facilities",
+        "Incorrect question", "Non-related query", "Random text input", "Wrong pattern", "Random question"
+      ],
+      "responses": [
+        "Our campus offers state-of-the-art academic facilities, well-equipped laboratories, a modern library, residential options for students, sports facilities, and transportation services. Additionally, we have on-campus healthcare services, dining options, and recreational areas to ensure a holistic educational experience. Our aim is to provide a supportive and enriching environment for all students."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "Placement opportunities", "Recruiters", "Career support", "Job placements", "Campus placements", "Placement assistance",
+        "CUTM placements", "CUTM recruitment", "CUTM career support", "CUTM job opportunities", "CUTM placement services",
+        "CUTM job placements", "CUTM career opportunities", "CUTM career services", "CUTM job assistance", "CUTM placement details",
+        "CUTM placement support", "CUTM placement office", "CUTM placement statistics", "CUTM placement records", "CUTM placement info",
+        "CUTM placement process", "CUTM recruitment process", "CUTM job support", "CUTM employment opportunities", "CUTM career guidance",
+        "CUTM career counseling", "CUTM job counseling", "CUTM job guidance", "CUTM employment support", "CUTM job search",
+        "CUTM job prep", "CUTM job preparation", "CUTM interview prep", "CUTM interview preparation", "CUTM resume support",
+        "CUTM resume building", "CUTM interview help", "CUTM job networking", "CUTM job connections", "CUTM job placement help",
+        "CUTM placement help", "CUTM job service", "CUTM employment service", "CUTM job market", "CUTM career fairs",
+        "Wrong placement question", "Non-related placement query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "Our Career Development Center works closely with top recruiters to ensure excellent placement opportunities for our students. Companies from various industries, including technology, healthcare, finance, and manufacturing, regularly participate in our campus placement drives. We also provide career counseling, resume building workshops, and interview preparation sessions to help students succeed in their job search."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Contact details", "How can I contact CUTM?", "Phone number", "University contact", "Reach out to CUTM",
+        "CUTM contact info", "How to contact CUTM?", "CUTM phone number", "Contact information", "CUTM email",
+        "CUTM phone", "CUTM contact details", "CUTM contact number", "CUTM contact us", "CUTM reach out",
+        "CUTM get in touch", "CUTM contact information", "CUTM support", "CUTM help", "CUTM phone contact",
+        "CUTM email address", "CUTM mailing address", "CUTM address", "CUTM office contact", "CUTM office number",
+        "CUTM admissions contact", "CUTM student support contact", "CUTM general inquiries", "CUTM inquiries", "CUTM information contact",
+        "CUTM general contact", "CUTM admissions number", "CUTM support contact", "CUTM helpline", "CUTM hotline",
+        "CUTM support number", "CUTM support line", "CUTM information line", "CUTM information number", "CUTM help number",
+        "CUTM admissions email", "CUTM support email", "CUTM general email", "CUTM inquiries email", "CUTM info email",
+        "Wrong contact question", "Non-related contact query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "You can contact us at 82600 77222 or email us at info@cutmap.ac.in. Our admissions office and student support services are available to assist you with any queries. You can also visit our official website for more contact options and specific departmental contacts."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is CUTM located?", "Location of CUTM", "CUTM address", "University location", "Campus address", "Where is the university?",
+        "CUTM campus location", "Address of CUTM", "Where is CUTM?", "CUTM location details", "CUTM location info", "CUTM full address",
+        "CUTM map", "CUTM directions", "How to get to CUTM?", "CUTM location map", "CUTM campus directions",
+        "CUTM university address", "CUTM main campus", "CUTM campus info", "CUTM campus address", "CUTM university location",
+        "CUTM city", "CUTM town", "CUTM region", "CUTM area", "CUTM whereabouts", "CUTM vicinity", "CUTM geographical location",
+        "CUTM pinpoint location", "CUTM situated", "CUTM exact location", "CUTM postal address", "CUTM physical address",
+        "CUTM locality", "CUTM venue", "CUTM place", "CUTM spot", "CUTM coordinates",
+        "CUTM in Vizianagaram", "CUTM in Andhra Pradesh", "CUTM state", "CUTM province", "CUTM district",
+        "Wrong location question", "Non-related location query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "Centurion University of Technology and Management is located in Vizianagaram, Andhra Pradesh. The campus is situated in a serene environment conducive to learning and personal growth. The exact address is: Centurion University of Technology and Management, Vizianagaram, Andhra Pradesh, India. Here is the [Google Maps link](https://www.google.com/maps?ll=18.18918,83.39253&z=10&t=m&hl=en-GB&gl=US&mapclient=embed&cid=9599919986197367855)."
+      ]
+    },
+    {
+      "tag": "admission_criteria",
+      "patterns": [
+        "Admission criteria", "Eligibility for admission", "Admission requirements", "Who can apply?", "CUTM eligibility",
+        "Criteria for admission", "Admission eligibility", "Requirements for admission", "Who is eligible?", "Admission standards",
+        "Admission prerequisites", "Admission qualifications", "Qualification for admission", "Eligibility for CUTM", "Who qualifies for admission?",
+        "What are the admission criteria?", "Admission guidelines", "Admission rules", "Admission qualifications for CUTM", "CUTM admission requirements",
+        "CUTM entry criteria", "CUTM eligibility requirements", "CUTM qualification criteria", "CUTM entrance requirements", "CUTM application criteria",
+        "CUTM criteria for application", "CUTM admission rules", "CUTM prerequisites", "CUTM entry standards", "CUTM application rules",
+        "CUTM qualification requirements", "CUTM entry guidelines", "CUTM application standards", "CUTM admission norms", "CUTM entry norms",
+        "CUTM admission guide", "CUTM eligibility guide", "CUTM qualification guide", "CUTM application norms", "CUTM entry requirements",
+        "CUTM standards for admission", "CUTM norms for admission", "CUTM rules for admission", "CUTM guidelines for admission", "CUTM prerequisites for admission",
+        "Wrong admission criteria", "Non-related admission criteria", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "The admission criteria at CUTM vary depending on the program you are applying for. Generally, undergraduate programs require completion of higher secondary education with specific subject prerequisites. For postgraduate programs, a relevant bachelor's degree is required. Some programs may also require entrance exams or interviews. Detailed criteria for each program can be found on our official website or by contacting the admissions office."
+      ]
+    },
+    {
+      "tag": "tuition_fees",
+      "patterns": [
+        "Tuition fees", "Cost of tuition", "Fee structure", "Course fees", "CUTM tuition", "Program fees",
+        "What are the tuition fees?", "Tuition cost", "Fee details", "Tuition information", "How much is the tuition?",
+        "Tuition fee breakdown", "Cost of courses", "Cost of studying", "Fee for programs", "Tuition fee details",
+        "CUTM fee structure", "CUTM course fees", "CUTM program fees", "CUTM tuition information", "CUTM fee details",
+        "CUTM fee breakdown", "CUTM cost of courses", "CUTM cost of studying", "CUTM fee for programs", "CUTM tuition cost",
+        "CUTM tuition fee breakdown", "CUTM cost of education", "CUTM tuition expenses", "CUTM education cost", "CUTM tuition details",
+        "CUTM tuition and fees", "CUTM total fees", "CUTM total tuition", "CUTM complete fee structure", "CUTM full tuition",
+        "CUTM program cost", "CUTM course cost", "CUTM full fee details", "CUTM tuition and expenses", "CUTM fee schedule",
+        "CUTM tuition schedule", "CUTM payment details", "CUTM payment structure", "CUTM fee information", "CUTM fee payment",
+        "Wrong fee question", "Non-related fee query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "The tuition fees at CUTM vary depending on the program and level of study. Detailed fee structures for each course are available on our official website. For specific queries regarding fees, please contact our admissions office. We also offer scholarships and financial aid to support eligible students."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "Courses offered", "Programs available", "What courses are available?", "List of courses", "CUTM courses",
+        "What programs do you offer?", "Available courses", "Available programs", "Courses at CUTM", "Programs at CUTM",
+        "Course list", "Program list", "What can I study?", "Study options", "CUTM course list",
+        "CUTM program list", "CUTM study options", "CUTM available courses", "CUTM available programs", "CUTM course options",
+        "CUTM program options", "CUTM course offerings", "CUTM program offerings", "CUTM list of courses", "CUTM list of programs",
+        "CUTM course information", "CUTM program information", "CUTM study programs", "CUTM educational programs", "CUTM academic programs",
+        "CUTM academic courses", "CUTM degree programs", "CUTM diploma courses", "CUTM certification courses", "CUTM training programs",
+        "CUTM graduate programs", "CUTM undergraduate programs", "CUTM postgraduate programs", "CUTM research programs", "CUTM professional courses",
+        "CUTM vocational courses", "CUTM technical courses", "CUTM skill development courses", "CUTM online courses", "CUTM distance learning courses",
+        "Wrong course question", "Non-related course query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "CUTM offers a wide range of undergraduate, postgraduate, diploma, and certification courses across various disciplines including engineering, management, agriculture, health sciences, and social sciences. Detailed information about each program can be found on our official website or by contacting the admissions office."
+      ]
+    },
+    {
+      "tag": "transportation_fee",
+      "patterns": [
+        "Transportation fee", "Bus fee", "Commute cost", "Transport charges", "Travel fee", "CUTM transport fee",
+        "Transportation cost", "CUTM bus fee", "CUTM travel fee", "CUTM commute cost", "Transport fee details",
+        "CUTM transport cost", "CUTM bus cost", "CUTM commute fee", "CUTM travel cost", "Transport fee information",
+        "CUTM transportation charges", "CUTM bus charges", "CUTM travel charges", "CUTM commute charges", "Transportation fee breakdown",
+        "CUTM transportation fee breakdown", "CUTM bus fee breakdown", "CUTM travel fee breakdown", "CUTM commute fee breakdown",
+        "Transport fee details at CUTM", "Transportation fee details at CUTM", "Bus fee details at CUTM", "Travel fee details at CUTM", "Commute fee details at CUTM",
+        "CUTM transportation info", "CUTM transport info", "CUTM bus info", "CUTM travel info", "CUTM commute info",
+        "Transportation information", "CUTM transportation fee info", "CUTM bus fee info", "CUTM travel fee info", "CUTM commute fee info",
+        "Transportation cost at CUTM", "CUTM transport cost", "CUTM bus cost", "CUTM travel cost", "CUTM commute cost",
+        "Wrong transport fee question", "Non-related transport fee query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "CUTM provides transportation facilities for students living off-campus. The transportation fee depends on the distance from the campus and the type of service opted for. This fee covers the cost of regular bus services to and from the campus. For detailed information on transportation fees, please visit our official website or contact the transportation office."
+      ]
+    },
+    {
+      "tag": "education_loan_assistance",
+      "patterns": [
+        "Education loan", "Loan assistance", "Financial aid for students", "Student loans", "Loan options",
+        "CUTM education loan", "CUTM loan assistance", "CUTM financial aid", "CUTM student loans", "CUTM loan options",
+        "Education loan support", "CUTM loan support", "Financial aid options", "CUTM financial aid options", "Student loan details",
+        "CUTM loan details", "CUTM education loan details", "Education loan information", "CUTM loan information", "CUTM financial aid information",
+        "Loan help", "CUTM loan help", "Financial aid help", "CUTM financial aid help", "Education loan guide",
+        "CUTM loan guide", "Financial aid guide", "CUTM financial aid guide", "Student loan guide", "CUTM student loan guide",
+        "Loan assistance information", "CUTM loan assistance information", "Financial aid support", "CUTM financial aid support", "Loan assistance support",
+        "CUTM loan assistance support", "Education loan support information", "CUTM loan support information", "Financial aid support information", "CUTM financial aid support information",
+        "Loan options at CUTM", "CUTM loan options", "Financial aid options at CUTM", "CUTM financial aid options", "Student loans at CUTM",
+        "Wrong loan question", "Non-related loan query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "CUTM provides assistance for education loans through various banks and financial institutions. Our financial aid office helps students understand the loan process, eligibility criteria, and documentation required. We aim to make education accessible to all eligible students by providing the necessary support for securing education loans."
+      ]
+    },
+    {
+      "tag": "how_to_apply",
+      "patterns": [
+        "How to apply", "Application process", "Application steps", "How can I apply?", "Apply for admission",
+        "Application procedure", "Application guide", "CUTM application", "Admission application", "How to fill application",
+        "How to submit application", "How to apply for CUTM", "Applying to CUTM", "CUTM application process", "CUTM application steps",
+        "Admission process at CUTM", "CUTM admission application", "CUTM application procedure", "CUTM apply process", "CUTM apply steps",
+        "CUTM how to apply", "How to register for CUTM", "CUTM registration process", "CUTM registration steps", "CUTM application info",
+        "CUTM admission steps", "CUTM application guide", "CUTM admission guide", "CUTM application details", "CUTM admission details",
+        "CUTM how to apply info", "CUTM apply info", "CUTM how to register", "CUTM apply details", "CUTM register details",
+        "Wrong application question", "Non-related application query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "To apply to CUTM, follow these steps: 1) Visit our official website and fill out the online application form. 2) Register for the Centurion University Entrance Examination (CUEE). 3) Appear for the examination and wait for the results. 4) If selected, complete the admission formalities as instructed. For detailed instructions, visit the Admissions section of our website."
+      ]
+    },
+    {
+      "tag": "cancellation_refund_policy",
+      "patterns": [
+        "Cancellation policy", "Refund policy", "Withdrawal policy", "Cancel admission", "Refund rules",
+        "CUTM cancellation policy", "CUTM refund policy", "CUTM withdrawal policy", "CUTM cancel admission", "CUTM refund rules",
+        "Cancellation guidelines", "CUTM cancellation guidelines", "Refund guidelines", "CUTM refund guidelines", "Withdrawal guidelines",
+        "CUTM withdrawal guidelines", "Admission cancellation policy", "CUTM admission cancellation policy", "CUTM admission refund policy", "CUTM admission withdrawal policy",
+        "Cancel enrollment", "CUTM cancel enrollment", "Enrollment cancellation", "CUTM enrollment cancellation", "Enrollment refund",
+        "CUTM enrollment refund", "Enrollment withdrawal", "CUTM enrollment withdrawal", "Refund request", "CUTM refund request",
+        "Cancellation request", "CUTM cancellation request", "Withdrawal request", "CUTM withdrawal request", "Cancel admission request",
+        "CUTM cancel admission request", "Refund policy details", "CUTM refund policy details", "Cancellation policy details", "CUTM cancellation policy details",
+        "Withdrawal policy details", "CUTM withdrawal policy details", "Refund rules information", "CUTM refund rules information", "Cancellation rules information",
+        "CUTM cancellation rules information", "Withdrawal rules information", "CUTM withdrawal rules information", "CUTM cancellation process", "Cancellation process at CUTM",
+        "Refund process at CUTM", "CUTM refund process", "Withdrawal process at CUTM", "CUTM withdrawal process", "Admission cancellation process at CUTM",
+        "CUTM admission cancellation process", "Admission refund process at CUTM", "CUTM admission refund process", "Admission withdrawal process at CUTM", "CUTM admission withdrawal process",
+        "Wrong refund question", "Non-related refund query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "CUTM has a well-defined cancellation and refund policy. If a student decides to withdraw from a program, they need to submit a formal request. The refund amount depends on the timing of the withdrawal request relative to the academic calendar. Detailed information on the cancellation and refund policy is available on our official website or can be obtained from the admissions office."
+      ]
+    },
+    {
+      "tag": "lateral_entry",
+      "patterns": [
+        "Lateral entry", "Transfer student", "Lateral admission", "Transfer process", "Direct entry",
+        "CUTM lateral entry", "CUTM transfer student", "CUTM lateral admission", "CUTM transfer process", "CUTM direct entry",
+        "Lateral entry application", "CUTM lateral entry application", "Transfer student application", "CUTM transfer student application", "Lateral admission process",
+        "CUTM lateral admission process", "Transfer student process", "CUTM transfer student process", "Direct entry application", "CUTM direct entry application",
+        "Lateral entry guide", "CUTM lateral entry guide", "Transfer student guide", "CUTM transfer student guide", "Lateral admission guide",
+        "CUTM lateral admission guide", "Transfer process guide", "CUTM transfer process guide", "Direct entry guide", "CUTM direct entry guide",
+        "How to apply for lateral entry", "CUTM how to apply for lateral entry", "How to apply as a transfer student", "CUTM how to apply as a transfer student", "Lateral entry information",
+        "CUTM lateral entry information", "Transfer student information", "CUTM transfer student information", "Lateral admission information", "CUTM lateral admission information",
+        "Transfer process information", "CUTM transfer process information", "Direct entry information", "CUTM direct entry information", "Lateral entry at CUTM",
+        "Transfer student at CUTM", "Lateral admission at CUTM", "Transfer process at CUTM", "Direct entry at CUTM",
+        "Wrong lateral entry question", "Non-related lateral entry query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "CUTM offers lateral entry options for eligible students who wish to transfer from other institutions. Applicants need to meet specific academic qualifications and submit their previous academic records for evaluation. The lateral entry process allows students to join directly into the second or third year of a program, depending on their previous coursework. For more information, contact our admissions office."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Scholarship opportunities", "Financial aid", "Scholarships available", "Student scholarships", "Scholarship programs",
+        "CUTM scholarships", "CUTM financial aid", "CUTM scholarship opportunities", "CUTM student scholarships", "CUTM scholarship programs",
+        "Scholarship information", "CUTM scholarship information", "Financial aid information", "CUTM financial aid information", "Scholarship details",
+        "CUTM scholarship details", "Financial aid details", "CUTM financial aid details", "Student scholarships information", "CUTM student scholarships information",
+        "Scholarship options", "CUTM scholarship options", "Financial aid options", "CUTM financial aid options", "Scholarship guide",
+        "CUTM scholarship guide", "Financial aid guide", "CUTM financial aid guide", "Student scholarship guide", "CUTM student scholarship guide",
+        "Scholarships at CUTM", "CUTM scholarships available", "Financial aid at CUTM", "CUTM financial aid available", "Scholarship programs at CUTM",
+        "CUTM scholarship programs available", "Scholarship opportunities at CUTM", "CUTM scholarship opportunities available", "Student scholarships at CUTM", "CUTM student scholarships available",
+        "Wrong scholarship question", "Non-related scholarship query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "CUTM offers various scholarship opportunities to support meritorious and financially needy students. Scholarships are awarded based on academic performance, entrance exam scores, and specific criteria set by the university. These scholarships can significantly reduce the financial burden on students and their families. For more details, visit our scholarships page or contact the financial aid office."
+      ]
+    },
+    {
+      "tag": "programme_fee",
+      "patterns": [
+        "Programme fee", "Tuition cost", "Course fees", "Cost of programs", "Tuition fee",
+        "Program fees", "CUTM programme fee", "CUTM tuition cost", "CUTM course fees", "CUTM cost of programs",
+        "Program fee details", "CUTM program fee details", "Tuition fee details", "CUTM tuition fee details", "Course fee details",
+        "CUTM course fee details", "Program fee information", "CUTM program fee information", "Tuition fee information", "CUTM tuition fee information",
+        "Course fee information", "CUTM course fee information", "Cost of programs at CUTM", "Tuition fee at CUTM", "Course fees at CUTM",
+        "Program fees at CUTM", "CUTM program cost", "CUTM tuition cost information", "CUTM cost of studying", "CUTM cost of education",
+        "CUTM tuition fees breakdown", "CUTM program fees breakdown", "CUTM course fees breakdown", "CUTM cost breakdown", "CUTM fee breakdown",
+        "CUTM total fee", "CUTM total tuition cost", "CUTM total program cost", "CUTM total course fees", "CUTM total cost of education",
+        "Wrong program fee question", "Non-related program fee query", "Random text input", "Incorrect pattern", "Random question"
+      ],
+      "responses": [
+        "The programme fee at CUTM varies based on the course and level of study. The fee includes tuition, examination fees, and access to campus facilities. Detailed fee structures for each program are available on our official website. For any specific queries regarding fees, please contact the admissions office."]
+  }
+]
+}
