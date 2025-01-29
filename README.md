@@ -46,8 +46,8 @@ CUTM CHATBOT is a college project developed for Centurion University of Technolo
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/python-engineer/chatbot-deployment.git
-cd chatbot-deployment
+git clone https://github.com/maheshmm7/CUTM-Chatbot.git
+cd CUTM-Chatbot
 ```
 
 2. Create and activate virtual environment:
