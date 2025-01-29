@@ -89,7 +89,7 @@ python
             "patterns": ["What courses are offered?", "Tell me about programs", "Available degrees"],
             "responses": ["CUTM offers various undergraduate and postgraduate programs in Engineering, Management, Pharmacy, and more. Would you like specific information about any program?"]
         }
-        // Add more CUTM-specific intents here
+
     ]
 }
 ```
